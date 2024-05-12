@@ -1,12 +1,13 @@
 {
     "name": "everytrytest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "repository": "https://github.com/xuguanjie0706/everytrytest.git",
     "author": "xuguanjie <215790428@qq.com>",
     "license": "MIT",
     "scripts": {
-        "dev": "node src/index.js"
+        "dev": "node src/index.js",
+        "release": "standard-version"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^6.4.0",
@@ -16,5 +17,8 @@
         "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
         "eslint-plugin-promise": "^6.0.0",
         "typescript": "*"
+    },
+    "dependencies": {
+        "standard-version": "^9.5.0"
     }
 }
