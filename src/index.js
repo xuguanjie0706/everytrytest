@@ -32,7 +32,7 @@ var groupAnagrams = function(strs) {
     let obj = {}
     for (let str of strs){
         let key = [...str].sort().toString()
-             if(key in obj ){
+        if(key in obj ){
             obj[key].push(str)
         } else{
             obj[key] = [str]
@@ -60,7 +60,7 @@ var lengthOfLongestSubstring = function(s) {
         }else{
             arr =  arr.slice(idx+1)
         }
-    }/Users/xuguanjie/Documents/题库/.gitignore
+    }
     return res
 };
 
@@ -154,35 +154,67 @@ function ListNode(val, next) {
 }
 
 var addTwoNumbers = function(l1, l2) {
-    let carry= 0
+    // let carry= 0
+    // let headNode = null
+    // let tailNode= null
+    // while(l1||l2){
+    //     const n1 = l1?l1.val:0
+    //     const n2 = l2?l2.val:0
+    //     const sum = n1+n2+carry
+    //     const n = sum % 10
+    //     if(!headNode){
+    //         headNode = tailNode = new ListNode(n)
+    //     }else{
+    //         tailNode.next = new ListNode(n)
+    //         tailNode = tailNode.next
+    //     }
+       
+    //     carry = sum >= 10?1:0
+    //     if(l1){
+    //         l1= l1.next
+    //     }
+    //     if(l2){
+    //         l2=l2.next
+    //     }
+      
+    // }
+    //     if(carry){
+    //             tailNode.next = new ListNode(carry)
+    //         }
+    //         return headNode
+
+    
+
+    let carry = 0 
     let headNode = null
-    let tailNode= null
+    let tailNode = null
     while(l1||l2){
-        const n1 = l1?l1.val:0
-        const n2 = l2?l2.val:0
-        const sum = n1+n2+carry
-        const n = sum % 10
+        let n1 = l1?l1.next:0
+        let n2 = l2?l2.next:0
+        const sum = n1+n2
+        const n = sum%10
         if(!headNode){
             headNode = tailNode = new ListNode(n)
         }else{
             tailNode.next = new ListNode(n)
             tailNode = tailNode.next
         }
-       
-        carry = sum >= 10?1:0
+        carry = sum>10?1:0
         if(l1){
-            l1= l1.next
+            l1 = l1.next
         }
         if(l2){
-            l2=l2.next
+            l2 = l2.next
         }
-      
+        if(carry){
+            tailNode.next = new ListNode(1)
+        }
+        return headNode
     }
-if(carry){
-                tailNode.next = new ListNode(carry)
-            }
-            return headNode
 };
+
+
+
 
 // console.log(addTwoNumbers([2,4,3],[5,6,4]))
 
@@ -270,7 +302,7 @@ var rotate = function(matrix) {
     };
 
 
-    var isValid = function(s) {
+var isValid = function(s) {
         if(s.length===0){
             return true
         }
