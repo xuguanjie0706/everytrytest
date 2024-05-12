@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/xuguanjie0706/everytrytest/compare/v5.0.1...v6.0.0) (2024-05-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* da
+
+### ✨ Features | 新功能
+
+* :sparkles: fda ([a479988](https://github.com/xuguanjie0706/everytrytest/commit/a479988da683e79b5280ccaad9e345df64abd877))
+
+
+### ⏪ Reverts | 回退
+
+* :rewind: fd ([8c9f3a8](https://github.com/xuguanjie0706/everytrytest/commit/8c9f3a85568eeb796bc66e14f92e96eaff330ed3))
+
 ### [5.0.1](https://github.com/xuguanjie0706/everytrytest/compare/v5.0.0...v5.0.1) (2024-05-12)
 
 ## [5.0.0](https://github.com/xuguanjie0706/everytrytest/compare/v4.0.4...v5.0.0) (2024-05-12)
