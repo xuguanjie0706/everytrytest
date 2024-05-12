@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.3](https://github.com/xuguanjie0706/everytrytest/compare/v6.0.2...v6.0.3) (2024-05-12)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* :bug: df ([02153a1](https://github.com/xuguanjie0706/everytrytest/commit/02153a1b7a412ab24dd7adedfc58c02732a496ed))
+
 ### [6.0.2](https://github.com/xuguanjie0706/everytrytest/compare/v6.0.1...v6.0.2) (2024-05-12)
 
 
