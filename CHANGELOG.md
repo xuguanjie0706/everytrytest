@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.1.0](https://github.com/xuguanjie0706/everytrytest/compare/v6.0.3...v6.1.0) (2024-05-12)
+
+
+### ✨ Features | 新功能
+
+* :sparkles: fda ([da6e696](https://github.com/xuguanjie0706/everytrytest/commit/da6e696783278bb69cf9311e46012fae7cc097b1))
+
 ### [6.0.3](https://github.com/xuguanjie0706/everytrytest/compare/v6.0.2...v6.0.3) (2024-05-12)
 
 
