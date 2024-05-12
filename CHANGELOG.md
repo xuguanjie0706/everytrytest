@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.4](https://github.com/xuguanjie0706/everytrytest/compare/v4.0.3...v4.0.4) (2024-05-12)
+
+
+### 💄 Styles | 风格
+
+* :lipstick: fa ([53c5e78](https://github.com/xuguanjie0706/everytrytest/commit/53c5e7869be717d4ca5fd4dad65e660bb384dc8f))
+
 ### [4.0.3](https://github.com/xuguanjie0706/everytrytest/compare/v4.0.2...v4.0.3) (2024-05-12)
 
 ### [4.0.2](https://github.com/xuguanjie0706/everytrytest/compare/v4.0.1...v4.0.2) (2024-05-12)
