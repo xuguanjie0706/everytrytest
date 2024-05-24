@@ -17,7 +17,7 @@ module.exports = {
       confirmCommit: 'Are you sure you want to proceed with the commit above?'
     },
     types: [
-      { value: 'feat', name: 'feat:     A new feature', emoji: ':sparkles:' },
+      { value: 'feat', name: 'feat:     A ndew feature', emoji: ':sparkles:' },
       { value: 'fix', name: 'fix:      A bug fix', emoji: ':bug:' },
       { value: 'docs', name: 'docs:     Documentation only changes', emoji: ':memo:' },
       { value: 'style', name: 'style:    Changes that do not affect the meaning of the code', emoji: ':lipstick:' },
